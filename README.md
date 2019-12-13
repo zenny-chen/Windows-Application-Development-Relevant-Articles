@@ -15,6 +15,7 @@ Windows应用开发相关
 1. [怎么让IntPtr指向一个字符串](http://www.myexception.cn/c-sharp/73219.html)
 1. [从C# String类理解Unicode（UTF8/UTF16)](https://www.cnblogs.com/zizifn/p/4734456.html)
 1. [C#学习笔记 IEquatable 接口 IEqualityComparer 接口](https://blog.csdn.net/july_yeye/article/details/68951425)
+1. [c#之lamda表达式的前世今生](https://www.toutiao.com/i6769386569053766157/)
 1. [通用 Windows 平台文档](https://docs.microsoft.com/zh-cn/windows/uwp/)
 1. [Visual Studio 2019中，用于调试的即时窗口](https://docs.microsoft.com/zh-cn/visualstudio/ide/reference/immediate-window?view=vs-2019)
 1. [VC使用CRT调试功能检测内存泄漏](https://blog.csdn.net/lvwx369/article/details/41776965)
