@@ -21,3 +21,26 @@ Windows应用开发相关
 1. [VC使用CRT调试功能检测内存泄漏](https://blog.csdn.net/lvwx369/article/details/41776965)
 1. [Visual Studio 2019之你还在手工清理代码吗？](https://www.toutiao.com/i6760478177031619075/)
 
+<br />
+
+#### Visual Studio创建平台通用的DLL库项目
+
+使用下图模板创建项目：
+
+<br />
+
+![1.jpg](https://github.com/zenny-chen/Windows-Application-Development-Relevant-Articles/blob/master/1.JPG)
+
+<br />
+
+请注意这个项目名与桌面DLL的区别：
+
+<br />
+
+![2.jpg](https://github.com/zenny-chen/Windows-Application-Development-Relevant-Articles/blob/master/2.JPG)
+
+<br />
+
+这样就能生成x86、x64、ARM以及ARM64这四种目标平台了。随后我们在项目属性中，将每个平台的“生成预编译头”选项设置为 **NO** 即可。
+
+
