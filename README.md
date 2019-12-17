@@ -23,7 +23,7 @@ Windows应用开发相关
 
 <br />
 
-#### Visual Studio创建平台通用的DLL库项目
+#### Visual Studio 2019创建平台通用的DLL库项目
 
 使用下图模板创建项目：
 
