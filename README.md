@@ -20,7 +20,6 @@ Windows应用开发相关
 1. [通用 Windows 平台文档](https://docs.microsoft.com/zh-cn/windows/uwp/)
 1. [Visual Studio 2019中，用于调试的即时窗口](https://docs.microsoft.com/zh-cn/visualstudio/ide/reference/immediate-window?view=vs-2019)
 1. [VC编译出现ITERATOR_DEBUG_LEVEL值不匹配异常](https://blog.csdn.net/crystalshaw/article/details/79961140)
-1. [vs2012 error LNK2038 RuntimeLibrary 不匹配的解决](https://blog.csdn.net/wpc320/article/details/8496957)
 1. [检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MD_DynamicRelease”](https://blog.csdn.net/hk121/article/details/80334481)
 1. [VC使用CRT调试功能检测内存泄漏](https://blog.csdn.net/lvwx369/article/details/41776965)
 1. [Visual Studio 2019之你还在手工清理代码吗？](https://www.toutiao.com/i6760478177031619075/)
