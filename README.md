@@ -24,6 +24,7 @@ Windows应用开发相关
 1. [VC使用CRT调试功能检测内存泄漏](https://blog.csdn.net/lvwx369/article/details/41776965)
 1. [Visual Studio 2019之你还在手工清理代码吗？](https://www.toutiao.com/i6760478177031619075/)
 1. [visual studio如何查看全部断点](http://ask.zol.com.cn/x/9061922.html)
+1. [呕心整理Windows平台批处理脚本编程笔记之for语句](https://www.toutiao.com/a6798393017280496139)
 
 <br />
 
