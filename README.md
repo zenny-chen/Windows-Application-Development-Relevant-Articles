@@ -29,6 +29,7 @@ Windows应用开发相关
 - [(VS2019) Set compiler and build properties](https://docs.microsoft.com/en-us/cpp/build/working-with-project-properties?view=vs-2019)
 - [呕心整理Windows平台批处理脚本编程笔记之for语句](https://www.toutiao.com/a6798393017280496139)
 - [C++ win32和linux获取系统剩余内存](https://blog.csdn.net/q1368232592/article/details/85157823)
+- [Under windows, how to allocate a “write combining” memory block?](https://stackoverflow.com/questions/883622/under-windows-how-to-allocate-a-write-combining-memory-block)
 
 <br />
 
