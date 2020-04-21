@@ -55,4 +55,9 @@ Windows应用开发相关
 
 这样就能生成x86、x64、ARM以及ARM64这四种目标平台了。随后我们在项目属性中，将每个平台的“生成预编译头”选项设置为 **NO** 即可。
 
+## Windows 10的日常使用
+
+- [win10开启内置Ubuntu](https://www.jianshu.com/p/6d6e629df051)
+- Windows 10 Edge浏览器中使用Ctrl+鼠标左键可直接新标签页打开指定的链接。
+
 
