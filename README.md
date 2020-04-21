@@ -58,6 +58,6 @@ Windows应用开发相关
 ## Windows 10的日常使用
 
 - [win10开启内置Ubuntu](https://www.jianshu.com/p/6d6e629df051)
-- Windows 10 Edge浏览器中使用Ctrl+鼠标左键可直接新标签页打开指定的链接。
+- Windows 10 Edge浏览器中使用Ctrl+鼠标左键可直接在新标签页打开指定的链接。
 
 
