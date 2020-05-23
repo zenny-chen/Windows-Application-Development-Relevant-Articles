@@ -27,7 +27,7 @@ Windows应用开发相关
 - [Visual Studio How to set two environment variable?](https://social.msdn.microsoft.com/Forums/vstudio/en-US/4665af21-19bf-442b-952f-7f08694b94ec/how-to-set-two-environment-variable)
 - 如何利用Visual Studio通过打开指定的应用程序来调试当前的DLL项目：在当前DLL项目工程中，点击菜单栏的“项目”，选择“属性”，然后“配置属性”中的“调试”一栏中，右侧的“命令”中输入应用程序路径即可。应用程序路径最后必须是该应用文件名，当然也可以是一个批处理文件。
 - [(Visual Studio) Set compiler and build properties](https://docs.microsoft.com/en-us/cpp/build/working-with-project-properties)
-- [/IGNORE（忽略特定警告）](https://docs.microsoft.com/zh-cn/cpp/build/reference/ignore-ignore-specific-warnings)
+- [（MSVC）/IGNORE（忽略特定警告）](https://docs.microsoft.com/zh-cn/cpp/build/reference/ignore-ignore-specific-warnings)
 - [呕心整理Windows平台批处理脚本编程笔记之for语句](https://www.toutiao.com/a6798393017280496139)
 - [C++ win32和linux获取系统剩余内存](https://blog.csdn.net/q1368232592/article/details/85157823)
 - [Under windows, how to allocate a “write combining” memory block?](https://stackoverflow.com/questions/883622/under-windows-how-to-allocate-a-write-combining-memory-block)
