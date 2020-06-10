@@ -22,6 +22,7 @@ Windows应用开发相关
 - [VC编译出现ITERATOR_DEBUG_LEVEL值不匹配异常](https://blog.csdn.net/crystalshaw/article/details/79961140)
 - [检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MD_DynamicRelease”](https://blog.csdn.net/hk121/article/details/80334481)
 - [VC使用CRT调试功能检测内存泄漏](https://blog.csdn.net/lvwx369/article/details/41776965)
+- MSVC中，Visual Studio 2019以前使用`__pragma`，比如：`__pragma(loop(hint_parallel(0)))`。Visual Studio 2019起可以使用`_Pragma`，比如：`_Pragma("loop( hint_parallel(0))")`。
 - [MSVC loop pragma](https://docs.microsoft.com/en-us/cpp/preprocessor/loop?redirectedfrom=MSDN)
 - [Visual Studio 2019之你还在手工清理代码吗？](https://www.toutiao.com/i6760478177031619075/)
 - [visual studio如何查看全部断点](http://ask.zol.com.cn/x/9061922.html)
