@@ -3,6 +3,7 @@ Windows应用开发相关
 
 <br />
 
+- [开发 Windows 10 应用程序](https://docs.microsoft.com/zh-cn/learn/paths/develop-windows10-apps/)
 - [Windows Presentation Foundation](https://docs.microsoft.com/en-us/dotnet/framework/wpf/)
 - [Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/)
 - [Detecting architecture at compile time from MASM/MASM64](https://stackoverflow.com/questions/2595550/detecting-architecture-at-compile-time-from-masm-masm64)
