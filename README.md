@@ -20,6 +20,7 @@ Windows应用开发相关
 - [C#学习笔记 IEquatable 接口 IEqualityComparer 接口](https://blog.csdn.net/july_yeye/article/details/68951425)
 - [c#之lamda表达式的前世今生](https://www.toutiao.com/i6769386569053766157/)
 - [通用 Windows 平台文档](https://docs.microsoft.com/zh-cn/windows/uwp/)
+- [theForger's Win32 API Programming Tutorial](http://www.winprog.org/tutorial/)
 - [Visual Studio 2019中，用于调试的即时窗口](https://docs.microsoft.com/zh-cn/visualstudio/ide/reference/immediate-window?view=vs-2019)
 - [VC编译出现ITERATOR_DEBUG_LEVEL值不匹配异常](https://blog.csdn.net/crystalshaw/article/details/79961140)
 - [检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MD_DynamicRelease”](https://blog.csdn.net/hk121/article/details/80334481)
