@@ -21,6 +21,7 @@ Windows应用开发相关
 - [c#之lamda表达式的前世今生](https://www.toutiao.com/i6769386569053766157/)
 - [通用 Windows 平台文档](https://docs.microsoft.com/zh-cn/windows/uwp/)
 - [theForger's Win32 API Programming Tutorial](http://www.winprog.org/tutorial/)
+- [Will UpdateWindow() send a WM_PAINT message even if the HWND is validated?](https://stackoverflow.com/questions/31038543/will-updatewindow-send-a-wm-paint-message-even-if-the-hwnd-is-validated)
 - [Visual Studio 2019中，用于调试的即时窗口](https://docs.microsoft.com/zh-cn/visualstudio/ide/reference/immediate-window?view=vs-2019)
 - [VC编译出现ITERATOR_DEBUG_LEVEL值不匹配异常](https://blog.csdn.net/crystalshaw/article/details/79961140)
 - [检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MD_DynamicRelease”](https://blog.csdn.net/hk121/article/details/80334481)
