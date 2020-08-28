@@ -19,6 +19,7 @@ Windows应用开发相关
 - [从C# String类理解Unicode（UTF8/UTF16)](https://www.cnblogs.com/zizifn/p/4734456.html)
 - [C#学习笔记 IEquatable 接口 IEqualityComparer 接口](https://blog.csdn.net/july_yeye/article/details/68951425)
 - [c#之lamda表达式的前世今生](https://www.toutiao.com/i6769386569053766157/)
+- [C# 9 中又来一堆关键词 init,record,with](https://www.toutiao.com/a6865808561528799756/)
 - [通用 Windows 平台文档](https://docs.microsoft.com/zh-cn/windows/uwp/)
 - [theForger's Win32 API Programming Tutorial](http://www.winprog.org/tutorial/)
 - [Will UpdateWindow() send a WM_PAINT message even if the HWND is validated?](https://stackoverflow.com/questions/31038543/will-updatewindow-send-a-wm-paint-message-even-if-the-hwnd-is-validated)
