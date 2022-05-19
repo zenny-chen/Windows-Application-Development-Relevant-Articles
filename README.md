@@ -4,9 +4,15 @@ Windows应用开发相关
 <br />
 
 - [开发 Windows 10 应用程序](https://docs.microsoft.com/zh-cn/learn/paths/develop-windows10-apps/)
+- [通用 Windows 平台文档](https://docs.microsoft.com/zh-cn/windows/uwp/)
 - [Windows Presentation Foundation](https://docs.microsoft.com/en-us/dotnet/framework/wpf/)
 - [Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/)
+- [深入理解win32（一）](https://www.anquanke.com/post/id/259450)
+- [深入理解win32（二）](https://www.anquanke.com/post/id/260799)
+- [Direct Machine Learning (DirectML)](https://docs.microsoft.com/en-us/windows/ai/directml/dml)
+- [如何用Visual Studio编写并实时预览Markdown文件](https://blog.csdn.net/qq_35504602/article/details/108054416)
 - [获取WINDOWS下当前用户路径 USERPROFILE](https://blog.csdn.net/woodsp/article/details/51922920)（MS-DOS中回显变量值也是用echo）
+- [windows上 set 命令的使用](https://jingyan.baidu.com/article/ab0b56303e0c63c15afa7dfe.html)
 - [Detecting architecture at compile time from MASM/MASM64](https://stackoverflow.com/questions/2595550/detecting-architecture-at-compile-time-from-masm-masm64)
 - [How do I render my DirectX C++ engine to a C# Panel?](https://gamedev.stackexchange.com/questions/124249/how-do-i-render-my-directx-c-engine-to-a-c-panel)
 - [Calling Native Functions from Managed Code](https://docs.microsoft.com/en-us/cpp/dotnet/calling-native-functions-from-managed-code?view=vs-2019)（**Platform Invocation Services**, commonly referred to as **P/Invoke**, is a feature of Common Language Infrastructure implementations, like Microsoft's Common Language Runtime, that enables managed code to call native code.）
@@ -16,19 +22,23 @@ Windows应用开发相关
 - [Xamarin Part 4 - Dealing with Multiple Platforms](https://docs.microsoft.com/en-us/xamarin/cross-platform/app-fundamentals/building-cross-platform-applications/platform-divergence-abstraction-divergent-implementation)
 - [Func delegate with no return type](https://stackoverflow.com/questions/917551/func-delegate-with-no-return-type)
 - [怎么让IntPtr指向一个字符串](http://www.myexception.cn/c-sharp/73219.html)
-- [从C# String类理解Unicode（UTF8/UTF16)](https://www.cnblogs.com/zizifn/p/4734456.html)
+- [从C# String类理解Unicode（UTF8/UTF16)](https://www.cnblogs.com/zizifn/p/4734456.html)（C\#中的Encoding类在 **`System.Text`** 下）
 - [C#学习笔记 IEquatable 接口 IEqualityComparer 接口](https://blog.csdn.net/july_yeye/article/details/68951425)
 - [c#之lamda表达式的前世今生](https://www.toutiao.com/i6769386569053766157/)
 - [C# 9 中又来一堆关键词 init,record,with](https://www.toutiao.com/a6865808561528799756/)
-- [通用 Windows 平台文档](https://docs.microsoft.com/zh-cn/windows/uwp/)
+- [C# Documentation comments](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/documentation-comments)
+- [Visual Studio Use the Task List](https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list)
 - [theForger's Win32 API Programming Tutorial](http://www.winprog.org/tutorial/)
 - [Will UpdateWindow() send a WM_PAINT message even if the HWND is validated?](https://stackoverflow.com/questions/31038543/will-updatewindow-send-a-wm-paint-message-even-if-the-hwnd-is-validated)
+- [win32 文件读写 异步 I/O 操作](https://blog.csdn.net/wowocpp/article/details/80512606)
+- [Win32::CreateEvent()函数](https://blog.csdn.net/su_787910081/article/details/21621025)
 - [Visual Studio 2019中，用于调试的即时窗口](https://docs.microsoft.com/zh-cn/visualstudio/ide/reference/immediate-window?view=vs-2019)
 - [VC编译出现ITERATOR_DEBUG_LEVEL值不匹配异常](https://blog.csdn.net/crystalshaw/article/details/79961140)
 - [检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MD_DynamicRelease”](https://blog.csdn.net/hk121/article/details/80334481)
 - [VC使用CRT调试功能检测内存泄漏](https://blog.csdn.net/lvwx369/article/details/41776965)
 - MSVC中，Visual Studio 2019以前使用`__pragma`，比如：`__pragma(loop(hint_parallel(0)))`。Visual Studio 2019起可以使用`_Pragma`，比如：`_Pragma("loop( hint_parallel(0))")`。
 - [MSVC loop pragma](https://docs.microsoft.com/en-us/cpp/preprocessor/loop?redirectedfrom=MSDN)
+- MSVC中要使用数学库的一些常量（比如 **`M_PI`** 等）需要添加宏定义：**`_USE_MATH_DEFINES`**。
 - [Visual Studio 2019之你还在手工清理代码吗？](https://www.toutiao.com/i6760478177031619075/)
 - [visual studio如何查看全部断点](http://ask.zol.com.cn/x/9061922.html)
 - [Visual Studio How to set two environment variable?](https://social.msdn.microsoft.com/Forums/vstudio/en-US/4665af21-19bf-442b-952f-7f08694b94ec/how-to-set-two-environment-variable)
@@ -36,8 +46,14 @@ Windows应用开发相关
 - [(Visual Studio) Set compiler and build properties](https://docs.microsoft.com/en-us/cpp/build/working-with-project-properties)
 - MSVC忽略特定警告：使用`/wd[警告编号]`，多个警告用分号分隔。比如：`/wd4819`。
 - [呕心整理Windows平台批处理脚本编程笔记之for语句](https://www.toutiao.com/a6798393017280496139)
+- [Parallel Patterns Library (PPL)](https://docs.microsoft.com/en-us/cpp/parallel/concrt/parallel-patterns-library-ppl)
+- [微软并行模式库(PPL)](https://blog.csdn.net/longji/article/details/95199668)
+- [TBB排序](https://blog.csdn.net/beyondjhf_2008/article/details/83405545)
+- [TBB parallel_sort Template Function](https://www.threadingbuildingblocks.org/docs/help/index.htm#reference/algorithms/parallel_sort_func.html)
+- [About Synchronization](https://docs.microsoft.com/zh-cn/windows/win32/sync/about-synchronization)
 - [C++ win32和linux获取系统剩余内存](https://blog.csdn.net/q1368232592/article/details/85157823)
 - [Under windows, how to allocate a “write combining” memory block?](https://stackoverflow.com/questions/883622/under-windows-how-to-allocate-a-write-combining-memory-block)
+- [Windows环境下快速写入(磁盘)文件](http://blog.sina.com.cn/s/blog_8d8425f301019fsk.html)
 - [Windows API笔记（五）管理虚拟内存](https://blog.csdn.net/lwwl12/article/details/89914275)
 - [Window API （四）虚拟内存管理](https://blog.csdn.net/fansongy/article/details/7077605)
 
@@ -65,9 +81,53 @@ Windows应用开发相关
 
 <br />
 
-## Windows 10的日常使用
+## Win32 API Fetch Number of Cores
 
+通过Win32 API来获取CPU的核心个数主要分两步：第一步是通过调用 `GetSystemInfo` 函数来获取逻辑核心的总个数；第二步则是调用 `GetLogicalProcessorInformationEx` 函数来获取逻辑核与物理核的关联信息，最终即可判定出当前处理器有多少核心了。
+
+代码如下所示：
+
+```c
+#include <Windows.h>
+#include <stdio.h>
+
+int main(void)
+{
+    SYSTEM_INFO sysInfo;
+    // 获取系统信息，
+    // SYSTEM_INFO结构体中可获取当前系统的逻辑处理器的个数
+    GetSystemInfo(&sysInfo);
+
+    // 方便起见，假定我们当前系统最多有128个关系信息
+    SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX logicalInfos[128];
+
+    DWORD paramSize = (DWORD)sizeof(logicalInfos);
+
+    printf("Number of logical processors: %u\n", sysInfo.dwNumberOfProcessors);
+
+    // 获取指定逻辑处理器所关联的处理器核心的信息
+    if (GetLogicalProcessorInformationEx(RelationProcessorCore, logicalInfos, &paramSize))
+    {
+        DWORD nCores = sysInfo.dwNumberOfProcessors;
+        // 当前x86架构的处理器中，一个核心最多只有两个逻辑核
+        if (logicalInfos[0].Processor.Flags == LTP_PC_SMT)
+            nCores /= 2;
+
+        printf("Number of Cores: %u\n", nCores);
+    }
+
+    return 0;
+}
+```
+
+<br />
+
+## Windows 10的日常使用
 - [win10开启内置Ubuntu](https://www.jianshu.com/p/6d6e629df051)
 - Windows 10 Edge浏览器中使用Ctrl+鼠标左键可直接在新标签页打开指定的链接。
-
+- [Win10系统如何安全热插拔U盘？原来是这样](https://baijiahao.baidu.com/s?id=1640567816308715538&wfr=spider&for=pc)
+- [解决Excel打开UTF-8编码的CSV文件乱码的问题](https://jingyan.baidu.com/article/7082dc1c359cbbe40a89bd3e.html)
+- 解决Windows 11中微软拼音候选词窗口消失问题：右键底部拼音的“中”或“英”，然后选择“设置”，再选择“常规”，拉到最底下，打开“兼容性”开关即可工作。此外，微软日语输入法也同样设置即可。
+- [Win11 Windows附件在哪里查看 Win11中Windows附件查看方法](https://www.pconline.com.cn/win11/1476/14764009.html)
+- [如何在excel表格中只复制单元格中的数值](https://jingyan.baidu.com/article/414eccf6a751966b431f0a27.html)
 
