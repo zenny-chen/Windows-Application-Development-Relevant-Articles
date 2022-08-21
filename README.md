@@ -51,6 +51,7 @@ Windows应用开发相关
 - [TBB排序](https://blog.csdn.net/beyondjhf_2008/article/details/83405545)
 - [TBB parallel_sort Template Function](https://www.threadingbuildingblocks.org/docs/help/index.htm#reference/algorithms/parallel_sort_func.html)
 - [About Synchronization](https://docs.microsoft.com/zh-cn/windows/win32/sync/about-synchronization)
+- [Windows Imaging Component (WIC) APIs Programming Guide](https://docs.microsoft.com/en-us/windows/win32/wic/-wic-programming-guide)
 - [C++ win32和linux获取系统剩余内存](https://blog.csdn.net/q1368232592/article/details/85157823)
 - [Under windows, how to allocate a “write combining” memory block?](https://stackoverflow.com/questions/883622/under-windows-how-to-allocate-a-write-combining-memory-block)
 - [Windows环境下快速写入(磁盘)文件](http://blog.sina.com.cn/s/blog_8d8425f301019fsk.html)
