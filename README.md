@@ -28,6 +28,7 @@ Windows应用开发相关
 - [C# 9 中又来一堆关键词 init,record,with](https://www.toutiao.com/a6865808561528799756/)
 - [C# Documentation comments](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/documentation-comments)
 - [Visual Studio Use the Task List](https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list)
+- [Doxygen and XML Doc Comment support](https://devblogs.microsoft.com/cppblog/doxygen-and-xml-doc-comment-support/)
 - [theForger's Win32 API Programming Tutorial](http://www.winprog.org/tutorial/)
 - [Will UpdateWindow() send a WM_PAINT message even if the HWND is validated?](https://stackoverflow.com/questions/31038543/will-updatewindow-send-a-wm-paint-message-even-if-the-hwnd-is-validated)
 - [win32 文件读写 异步 I/O 操作](https://blog.csdn.net/wowocpp/article/details/80512606)
