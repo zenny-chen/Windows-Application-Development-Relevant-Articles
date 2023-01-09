@@ -47,6 +47,7 @@ Windows应用开发相关
 - [(Visual Studio) Set compiler and build properties](https://docs.microsoft.com/en-us/cpp/build/working-with-project-properties)
 - MSVC忽略特定警告：使用`/wd[警告编号]`，多个警告用分号分隔。比如：`/wd4819`。
 - [/utf-8 (Set source and execution character sets to UTF-8)](https://learn.microsoft.com/en-us/cpp/build/reference/utf-8-set-source-and-executable-character-sets-to-utf-8)
+- [How to write as UTF-8 to console?](https://github.com/microsoft/terminal/issues/396)
 - [呕心整理Windows平台批处理脚本编程笔记之for语句](https://www.toutiao.com/a6798393017280496139)
 - [Parallel Patterns Library (PPL)](https://docs.microsoft.com/en-us/cpp/parallel/concrt/parallel-patterns-library-ppl)
 - [微软并行模式库(PPL)](https://blog.csdn.net/longji/article/details/95199668)
