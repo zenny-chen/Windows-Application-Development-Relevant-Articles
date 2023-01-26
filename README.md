@@ -10,7 +10,7 @@ Windows应用开发相关
 - [深入理解win32（一）](https://www.anquanke.com/post/id/259450)
 - [深入理解win32（二）](https://www.anquanke.com/post/id/260799)
 - [Direct Machine Learning (DirectML)](https://docs.microsoft.com/en-us/windows/ai/directml/dml)
-- [Create an offline installation package of Visual Studio for local installation](https://learn.microsoft.com/en-us/visualstudio/install/create-an-offline-installation-of-visual-studio)
+- [Create an offline installation package of Visual Studio for local installation](https://learn.microsoft.com/en-us/visualstudio/install/create-an-offline-installation-of-visual-studio)（直接看这个篇章：**Use the command line to create a local layout**）
 - [如何用Visual Studio编写并实时预览Markdown文件](https://blog.csdn.net/qq_35504602/article/details/108054416)
 - [获取WINDOWS下当前用户路径 USERPROFILE](https://blog.csdn.net/woodsp/article/details/51922920)（MS-DOS中回显变量值也是用echo）
 - [windows上 set 命令的使用](https://jingyan.baidu.com/article/ab0b56303e0c63c15afa7dfe.html)
