@@ -7,10 +7,9 @@ Windows应用开发相关
 - [通用 Windows 平台文档](https://docs.microsoft.com/zh-cn/windows/uwp/)
 - [Windows Presentation Foundation](https://docs.microsoft.com/en-us/dotnet/framework/wpf/)
 - [Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/)
-- [深入理解win32（一）](https://www.anquanke.com/post/id/259450)
-- [深入理解win32（二）](https://www.anquanke.com/post/id/260799)
 - [Direct Machine Learning (DirectML)](https://docs.microsoft.com/en-us/windows/ai/directml/dml)
 - [Create an offline installation package of Visual Studio for local installation](https://learn.microsoft.com/en-us/visualstudio/install/create-an-offline-installation-of-visual-studio)（直接看这个篇章：**Use the command line to create a local layout**）
+- [How to: Enable a 64-Bit, x64 hosted MSVC toolset on the command line](https://learn.microsoft.com/en-us/cpp/build/how-to-enable-a-64-bit-visual-cpp-toolset-on-the-command-line)（比如：`"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Auxiliary\Build\vcvarsall.bat"  x64  10.0.19041.0`）
 - [如何用Visual Studio编写并实时预览Markdown文件](https://blog.csdn.net/qq_35504602/article/details/108054416)
 - [获取WINDOWS下当前用户路径 USERPROFILE](https://blog.csdn.net/woodsp/article/details/51922920)（MS-DOS中回显变量值也是用echo）
 - [windows上 set 命令的使用](https://jingyan.baidu.com/article/ab0b56303e0c63c15afa7dfe.html)
@@ -30,6 +29,8 @@ Windows应用开发相关
 - [C# Documentation comments](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/documentation-comments)
 - [Visual Studio Use the Task List](https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list)
 - [Doxygen and XML Doc Comment support](https://devblogs.microsoft.com/cppblog/doxygen-and-xml-doc-comment-support/)
+- [深入理解win32（一）](https://www.anquanke.com/post/id/259450)
+- [深入理解win32（二）](https://www.anquanke.com/post/id/260799)
 - [theForger's Win32 API Programming Tutorial](http://www.winprog.org/tutorial/)
 - [Will UpdateWindow() send a WM_PAINT message even if the HWND is validated?](https://stackoverflow.com/questions/31038543/will-updatewindow-send-a-wm-paint-message-even-if-the-hwnd-is-validated)
 - [win32 文件读写 异步 I/O 操作](https://blog.csdn.net/wowocpp/article/details/80512606)
