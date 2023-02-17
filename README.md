@@ -33,6 +33,7 @@ Windows应用开发相关
 - [深入理解win32（二）](https://www.anquanke.com/post/id/260799)
 - [theForger's Win32 API Programming Tutorial](http://www.winprog.org/tutorial/)
 - [Will UpdateWindow() send a WM_PAINT message even if the HWND is validated?](https://stackoverflow.com/questions/31038543/will-updatewindow-send-a-wm-paint-message-even-if-the-hwnd-is-validated)
+- Win32更新窗口标题名：[SetWindowTextA function](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowtexta)
 - [win32 文件读写 异步 I/O 操作](https://blog.csdn.net/wowocpp/article/details/80512606)
 - [Win32::CreateEvent()函数](https://blog.csdn.net/su_787910081/article/details/21621025)
 - [Visual Studio 2019中，用于调试的即时窗口](https://docs.microsoft.com/zh-cn/visualstudio/ide/reference/immediate-window?view=vs-2019)
