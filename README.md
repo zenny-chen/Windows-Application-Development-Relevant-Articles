@@ -62,7 +62,7 @@ Windows应用开发相关
 - 如何利用Visual Studio通过打开指定的应用程序来调试当前的DLL项目：在当前DLL项目工程中，点击菜单栏的“项目”，选择“属性”，然后“配置属性”中的“调试”一栏中，右侧的“命令”中输入应用程序路径即可。应用程序路径最后必须是该应用文件名，当然也可以是一个批处理文件。
 - [windows命令行方式下打印和设置PATH变量](https://www.shuzhiduo.com/A/pRdBAYO75n/)
 - Visual Studio下对调试环境增加 **`PATH`** 路径：`PATH=C:/freeglut-3.2.2/bin/;%PATH%`。（如下图所示）
-
+![vs_env_set](images/vs_env_set.png)
 - [(Visual Studio) Set compiler and build properties](https://docs.microsoft.com/en-us/cpp/build/working-with-project-properties)
 - MSVC禁用指定warning参考：**[/wd](https://learn.microsoft.com/en-us/cpp/build/reference/compiler-option-warning-level)**。比如：**`/wd"4819"`** 用于禁用4819编号的警告（这里的双引号可省）。
 - [/utf-8 (Set source and execution character sets to UTF-8)](https://learn.microsoft.com/en-us/cpp/build/reference/utf-8-set-source-and-executable-character-sets-to-utf-8)
@@ -87,17 +87,13 @@ Windows应用开发相关
 
 使用下图模板创建项目：
 
-<br />
-
-![1.jpg](https://github.com/zenny-chen/Windows-Application-Development-Relevant-Articles/blob/master/1.JPG)
+![1.jpg](images/1.JPG)
 
 <br />
 
 请注意这个项目名与桌面DLL的区别：
 
-<br />
-
-![2.jpg](https://github.com/zenny-chen/Windows-Application-Development-Relevant-Articles/blob/master/2.JPG)
+![2.jpg](images/2.JPG)
 
 <br />
 
