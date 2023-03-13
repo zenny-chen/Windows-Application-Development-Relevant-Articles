@@ -81,6 +81,7 @@ Windows应用开发相关
 - [Windows API笔记（五）管理虚拟内存](https://blog.csdn.net/lwwl12/article/details/89914275)
 - [Window API （四）虚拟内存管理](https://blog.csdn.net/fansongy/article/details/7077605)
 - Visual Studio中比较舒服的字体：**`Consolas`**。菜单栏 -> 工具 -> 选项 -> 环境 -> 字体和颜色：直接在“字体（粗体表示等宽字体）”一栏中选择即可。
+- Visual Studio 2022使用文件比较工具：在Windows系统的“开始菜单”中找到“Visual Studio 2022”文件夹，点击“x64 Native Tools Command Prompt for VS 2022”，进入后可直接输入：**`devenv /diff file1.cs file2.cs`**。如果是用Visual Studio Code，可在命令行用：**`code.exe --diff file1.cs file2.cs`**。
 
 <br />
 
