@@ -47,6 +47,7 @@ Windows应用开发相关
         break;
     }
 ```
+- [windows api打开文件对话框](https://www.dgrt.cn/news/show-318637.html?action=onClick)
 - [win32 文件读写 异步 I/O 操作](https://blog.csdn.net/wowocpp/article/details/80512606)
 - [Win32::CreateEvent()函数](https://blog.csdn.net/su_787910081/article/details/21621025)
 - [tiff 文件读取](https://www.oschina.net/question/565065_138958)
