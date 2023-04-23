@@ -150,8 +150,10 @@ int main(void)
 <br />
 
 ## Windows 10的日常使用
+
 - [win10开启内置Ubuntu](https://www.jianshu.com/p/6d6e629df051)
 - Windows 10 Edge浏览器中使用Ctrl+鼠标左键可直接在新标签页打开指定的链接。
+- Edge浏览器保存gif图片：只需修改一下保存文件的后缀名，将 **`.webp`** 修改为 **`.gif`** 即可。
 - [Win10系统如何安全热插拔U盘？原来是这样](https://baijiahao.baidu.com/s?id=1640567816308715538&wfr=spider&for=pc)
 - [解决Excel打开UTF-8编码的CSV文件乱码的问题](https://jingyan.baidu.com/article/7082dc1c359cbbe40a89bd3e.html)
 - 解决Windows 11中微软拼音候选词窗口消失问题：右键底部拼音的“中”或“英”，然后选择“设置”，再选择“常规”，拉到最底下，打开“兼容性”开关即可工作。此外，微软日语输入法也同样设置即可。
