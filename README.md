@@ -5,6 +5,7 @@ Windows应用开发相关
 
 - [开发 Windows 10 应用程序](https://docs.microsoft.com/zh-cn/learn/paths/develop-windows10-apps/)
 - [通用 Windows 平台文档](https://docs.microsoft.com/zh-cn/windows/uwp/)
+- [Publish Windows apps and games](https://learn.microsoft.com/en-us/windows/apps/publish/)
 - [Windows Presentation Foundation](https://docs.microsoft.com/en-us/dotnet/framework/wpf/)
 - [Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/)
 - [Direct Machine Learning (DirectML)](https://docs.microsoft.com/en-us/windows/ai/directml/dml)
