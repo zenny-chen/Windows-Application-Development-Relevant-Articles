@@ -78,6 +78,7 @@ Windows应用开发相关
 - [呕心整理Windows平台批处理脚本编程笔记之for语句](https://www.toutiao.com/a6798393017280496139)
 - [Parallel Patterns Library (PPL)](https://docs.microsoft.com/en-us/cpp/parallel/concrt/parallel-patterns-library-ppl)
 - [微软并行模式库(PPL)](https://blog.csdn.net/longji/article/details/95199668)
+- [Getting Started with Intel® Threading Building Blocks \(Intel® TBB\)](https://www.intel.com/content/www/us/en/developer/articles/guide/get-started-with-tbb.html)
 - [TBB排序](https://blog.csdn.net/beyondjhf_2008/article/details/83405545)
 - [TBB parallel_sort Template Function](https://www.threadingbuildingblocks.org/docs/help/index.htm#reference/algorithms/parallel_sort_func.html)
 - [About Synchronization](https://docs.microsoft.com/zh-cn/windows/win32/sync/about-synchronization)
