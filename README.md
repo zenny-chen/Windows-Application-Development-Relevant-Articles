@@ -56,6 +56,8 @@ Windows应用开发相关
 - [tiff 文件读取](https://blog.csdn.net/zhouxuguang236/article/details/7846615)
 - [win32 文件读写 异步 I/O 操作](https://blog.csdn.net/wowocpp/article/details/80512606)
 - [Win32::CreateEvent()函数](https://blog.csdn.net/su_787910081/article/details/21621025)
+- [SwitchToThread function](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-switchtothread)
+- [YieldProcessor function](https://learn.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-yieldprocessor)
 - [Visual Studio 2019中，用于调试的即时窗口](https://docs.microsoft.com/zh-cn/visualstudio/ide/reference/immediate-window?view=vs-2019)
 - [/Zc:__cplusplus \(Enable updated __cplusplus macro\)](https://learn.microsoft.com/en-us/cpp/build/reference/zc-cplusplus)
 - [VC编译出现ITERATOR_DEBUG_LEVEL值不匹配异常](https://blog.csdn.net/crystalshaw/article/details/79961140)
