@@ -72,6 +72,8 @@ Windows应用开发相关
 - [Visual Studio How to set two environment variable?](https://social.msdn.microsoft.com/Forums/vstudio/en-US/4665af21-19bf-442b-952f-7f08694b94ec/how-to-set-two-environment-variable)
 - 如何利用Visual Studio通过打开指定的应用程序来调试当前的DLL项目：在当前DLL项目工程中，点击菜单栏的“项目”，选择“属性”，然后“配置属性”中的“调试”一栏中，右侧的“命令”中输入应用程序路径即可。应用程序路径最后必须是该应用文件名，当然也可以是一个批处理文件。
 - [windows命令行方式下打印和设置PATH变量](https://www.shuzhiduo.com/A/pRdBAYO75n/)
+- Visual Studio 中引用 Windows SDK include 目录：`$(WindowsSDK_IncludePath)`
+- Visual Studio 中引用 Windows SDK Lib64 目录：`$(WindowsSDK_LibraryPath_x64)`；引用 ARM64 的库目录：`$(WindowsSDK_LibraryPath_arm64)`
 - Visual Studio下对调试环境增加 **`PATH`** 路径：`PATH=C:/freeglut-3.2.2/bin/;%PATH%`。（如下图所示）
 ![vs_env_set](images/vs_env_set.png)
 - [(Visual Studio) Set compiler and build properties](https://docs.microsoft.com/en-us/cpp/build/working-with-project-properties)
