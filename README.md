@@ -80,7 +80,7 @@ Windows应用开发相关
 - MSVC禁用指定warning参考：**[/wd](https://learn.microsoft.com/en-us/cpp/build/reference/compiler-option-warning-level)**。比如：**`/wd"4819"`** 用于禁用4819编号的警告（这里的双引号可省）。
 - [/utf-8 (Set source and execution character sets to UTF-8)](https://learn.microsoft.com/en-us/cpp/build/reference/utf-8-set-source-and-executable-character-sets-to-utf-8)
 - [How to write as UTF-8 to console?](https://github.com/microsoft/terminal/issues/396)（这里的关键就是调用 **`SetConsoleOutputCP(CP_UTF8);`**）
-- [呕心整理Windows平台批处理脚本编程笔记之for语句](https://www.toutiao.com/a6798393017280496139)
+- [BAT批处理文件 set命令详解](https://blog.csdn.net/csqxy547/article/details/89403598)
 - [Parallel Patterns Library (PPL)](https://docs.microsoft.com/en-us/cpp/parallel/concrt/parallel-patterns-library-ppl)
 - [微软并行模式库(PPL)](https://blog.csdn.net/longji/article/details/95199668)
 - [Getting Started with Intel® Threading Building Blocks \(Intel® TBB\)](https://www.intel.com/content/www/us/en/developer/articles/guide/get-started-with-tbb.html)
