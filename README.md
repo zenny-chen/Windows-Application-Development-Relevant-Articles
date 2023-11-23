@@ -52,6 +52,7 @@ Windows应用开发相关
 ```
 - [windows api打开文件对话框](https://www.dgrt.cn/news/show-318637.html?action=onClick)
 - [win32之bitmap篇](https://www.shuzhiduo.com/A/pRdBRm79dn/)（通过文件路径加载bitmap：`LoadImage(NULL, lpszBitmapFile, IMAGE_BITMAP, 0, 0, LR_LOADFROMFILE | LR_CREATEDIBSECTION);`。刷新绘制图像需要调用：**`InvalidateRect`**。）
+- [Windows Imaging Component (WIC) APIs Programming Guide](https://docs.microsoft.com/en-us/windows/win32/wic/-wic-programming-guide)
 - [Introduction to WIC: How to use WIC to load an image, and draw it with GDI?](http://www.nuonsoft.com/blog/2011/10/17/introduction-to-wic-how-to-use-wic-to-load-an-image-and-draw-it-with-gdi/)
 - [tiff 文件读取](https://blog.csdn.net/zhouxuguang236/article/details/7846615)
 - [Getting the System Version](https://learn.microsoft.com/en-us/windows/win32/sysinfo/getting-the-system-version)
@@ -88,7 +89,6 @@ Windows应用开发相关
 - [TBB排序](https://blog.csdn.net/beyondjhf_2008/article/details/83405545)
 - [TBB parallel_sort Template Function](https://www.threadingbuildingblocks.org/docs/help/index.htm#reference/algorithms/parallel_sort_func.html)
 - [About Synchronization](https://docs.microsoft.com/zh-cn/windows/win32/sync/about-synchronization)
-- [Windows Imaging Component (WIC) APIs Programming Guide](https://docs.microsoft.com/en-us/windows/win32/wic/-wic-programming-guide)
 - [C++ win32和linux获取系统剩余内存](https://blog.csdn.net/q1368232592/article/details/85157823)
 - [Under windows, how to allocate a “write combining” memory block?](https://stackoverflow.com/questions/883622/under-windows-how-to-allocate-a-write-combining-memory-block)
 - [Windows环境下快速写入(磁盘)文件](http://blog.sina.com.cn/s/blog_8d8425f301019fsk.html)
