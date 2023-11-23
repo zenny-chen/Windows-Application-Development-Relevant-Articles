@@ -51,7 +51,7 @@ Windows应用开发相关
     }
 ```
 - [windows api打开文件对话框](https://www.dgrt.cn/news/show-318637.html?action=onClick)
-- [win32之bitmap篇](https://www.shuzhiduo.com/A/pRdBRm79dn/)（通过文件路径加载bitmap：`LoadImage(NULL, lpszBitmapFile, IMAGE_BITMAP, 0, 0, LR_LOADFROMFILE | LR_CREATEDIBSECTION);`。刷新绘制图像需要调用：**`InvalidateRect`**。）
+- [win32api显示BMP图片的最简单方案](https://cloud.tencent.com/developer/article/2124549)（通过文件路径加载bitmap：`HBITMAP hbmp = LoadImage(NULL, lpszBitmapFile, IMAGE_BITMAP, 0, 0, LR_LOADFROMFILE | LR_CREATEDIBSECTION); BITMAP bitmap; GetObject(hBitmap, sizeof(BITMAP), &bitmap);`。刷新绘制图像需要调用：**`InvalidateRect`**。）
 - [Windows Imaging Component (WIC) APIs Programming Guide](https://docs.microsoft.com/en-us/windows/win32/wic/-wic-programming-guide)
 - [Introduction to WIC: How to use WIC to load an image, and draw it with GDI?](http://www.nuonsoft.com/blog/2011/10/17/introduction-to-wic-how-to-use-wic-to-load-an-image-and-draw-it-with-gdi/)
 - [tiff 文件读取](https://blog.csdn.net/zhouxuguang236/article/details/7846615)
