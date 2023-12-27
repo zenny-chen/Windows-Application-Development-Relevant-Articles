@@ -60,6 +60,7 @@ Windows应用开发相关
 - [Win32::CreateEvent()函数](https://blog.csdn.net/su_787910081/article/details/21621025)
 - [SwitchToThread function](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-switchtothread)
 - [YieldProcessor function](https://learn.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-yieldprocessor)
+- [C++ 共享内存ShellCode跨进程传输](https://www.toutiao.com/article/7317082109238116879/)
 - [Visual Studio 2019中，用于调试的即时窗口](https://docs.microsoft.com/zh-cn/visualstudio/ide/reference/immediate-window?view=vs-2019)
 - [/Zc:__cplusplus \(Enable updated __cplusplus macro\)](https://learn.microsoft.com/en-us/cpp/build/reference/zc-cplusplus)
 - [VC编译出现ITERATOR_DEBUG_LEVEL值不匹配异常](https://blog.csdn.net/crystalshaw/article/details/79961140)
