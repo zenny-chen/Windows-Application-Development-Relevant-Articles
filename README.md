@@ -60,6 +60,7 @@ Windows应用开发相关
 - [Win32::CreateEvent()函数](https://blog.csdn.net/su_787910081/article/details/21621025)
 - [SwitchToThread function](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-switchtothread)
 - [YieldProcessor function](https://learn.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-yieldprocessor)
+- [SetThreadAffinityMask function (winbase.h)](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-setthreadaffinitymask)
 - [C++ 共享内存ShellCode跨进程传输](https://www.toutiao.com/article/7317082109238116879/)
 - [Visual Studio 2019中，用于调试的即时窗口](https://docs.microsoft.com/zh-cn/visualstudio/ide/reference/immediate-window?view=vs-2019)
 - [/Zc:__cplusplus \(Enable updated __cplusplus macro\)](https://learn.microsoft.com/en-us/cpp/build/reference/zc-cplusplus)
@@ -85,10 +86,6 @@ Windows应用开发相关
 - [How to write as UTF-8 to console?](https://github.com/microsoft/terminal/issues/396)（这里的关键就是调用 **`SetConsoleOutputCP(CP_UTF8);`**）
 - [BAT批处理文件 set命令详解](https://blog.csdn.net/csqxy547/article/details/89403598)
 - [Parallel Patterns Library (PPL)](https://docs.microsoft.com/en-us/cpp/parallel/concrt/parallel-patterns-library-ppl)
-- [微软并行模式库(PPL)](https://blog.csdn.net/longji/article/details/95199668)
-- [Getting Started with Intel® Threading Building Blocks \(Intel® TBB\)](https://www.intel.com/content/www/us/en/developer/articles/guide/get-started-with-tbb.html)
-- [TBB排序](https://blog.csdn.net/beyondjhf_2008/article/details/83405545)
-- [TBB parallel_sort Template Function](https://www.threadingbuildingblocks.org/docs/help/index.htm#reference/algorithms/parallel_sort_func.html)
 - [About Synchronization](https://docs.microsoft.com/zh-cn/windows/win32/sync/about-synchronization)
 - [C++ win32和linux获取系统剩余内存](https://blog.csdn.net/q1368232592/article/details/85157823)
 - [Under windows, how to allocate a “write combining” memory block?](https://stackoverflow.com/questions/883622/under-windows-how-to-allocate-a-write-combining-memory-block)
