@@ -62,6 +62,7 @@ Windows应用开发相关
 - [YieldProcessor function](https://learn.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-yieldprocessor)
 - [NUMA Architecture](https://learn.microsoft.com/en-us/windows/win32/procthread/numa-support)
 - [SetThreadAffinityMask function (winbase.h)](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-setthreadaffinitymask)
+- 获得当前线程的 [**GROUP_AFFINITY structure**](https://learn.microsoft.com/en-us/windows/win32/procthread/processor-groups) 则需要使用 [**GetThreadGroupAffinity function**](https://learn.microsoft.com/en-us/windows/win32/api/processtopologyapi/nf-processtopologyapi-getthreadgroupaffinity) 接口。
 - [C++ 共享内存ShellCode跨进程传输](https://www.toutiao.com/article/7317082109238116879/)
 - [Visual Studio 2019中，用于调试的即时窗口](https://docs.microsoft.com/zh-cn/visualstudio/ide/reference/immediate-window?view=vs-2019)
 - [/Zc:__cplusplus \(Enable updated __cplusplus macro\)](https://learn.microsoft.com/en-us/cpp/build/reference/zc-cplusplus)
