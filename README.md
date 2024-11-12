@@ -64,6 +64,8 @@ Windows应用开发相关
 - [SetThreadAffinityMask function (winbase.h)](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-setthreadaffinitymask)
 - 获得当前线程的 [**GROUP_AFFINITY structure**](https://learn.microsoft.com/en-us/windows/win32/procthread/processor-groups) 则需要使用 [**GetThreadGroupAffinity function**](https://learn.microsoft.com/en-us/windows/win32/api/processtopologyapi/nf-processtopologyapi-getthreadgroupaffinity) 接口。
 - [C++ 共享内存ShellCode跨进程传输](https://www.toutiao.com/article/7317082109238116879/)
+- [windows如何mmap创建映射粒度为4KB的内存？](https://answers.microsoft.com/zh-hans/windows/forum/all/windows%e5%a6%82%e4%bd%95mmap%e5%88%9b%e5%bb%ba/dba6c05d-7ee1-4697-a8f6-e5203dee5672)
+- [mmap：文件映射进内存，及window上的对应方法](https://blog.csdn.net/heli200482128/article/details/60874240)
 - [Visual Studio 2019中，用于调试的即时窗口](https://docs.microsoft.com/zh-cn/visualstudio/ide/reference/immediate-window?view=vs-2019)
 - [/Zc:__cplusplus \(Enable updated __cplusplus macro\)](https://learn.microsoft.com/en-us/cpp/build/reference/zc-cplusplus)
 - [VC编译出现ITERATOR_DEBUG_LEVEL值不匹配异常](https://blog.csdn.net/crystalshaw/article/details/79961140)
