@@ -110,6 +110,56 @@ Windows应用开发相关
 
 <br />
 
+## Win32 API 获取当前机器的IPv4地址
+
+```c
+#define _WINSOCK_DEPRECATED_NO_WARNINGS
+#include <WinSock2.h>
+#include <WS2tcpip.h>
+#include <Windows.h>
+
+// link with Ws2_32.lib
+#pragma comment (lib, "Ws2_32.lib")
+
+static auto FetchCurrentIPv4Address() -> bool
+{
+    char hostName[256]{};
+    int result = gethostname(hostName, sizeof(hostName));
+    if (result != 0)
+    {
+        fprintf(stderr, "gethostname failed with error: %d\n", result);
+        return false;
+    }
+
+    PHOSTENT hostent = gethostbyname(hostName);
+    if (hostent == nullptr)
+    {
+        fprintf(stderr, "gethostbyname failed with error: %d\n", WSAGetLastError());
+        return false;
+    }
+
+    const char* ipAddr = nullptr;
+    while (*hostent->h_addr_list != nullptr)
+    {
+        ipAddr = inet_ntoa(*(struct in_addr*)*hostent->h_addr_list);
+        printf("Current IPv4 address: %s\n", ipAddr);
+        ++hostent->h_addr_list;
+    }
+    if (ipAddr == nullptr)
+    {
+        fprintf(stderr, "No IPv4 address found!\n");
+        return false;
+    }
+
+    strcpy_s(s_currIPAddress, ipAddr);
+
+    return true;
+}
+
+```
+
+<br />
+
 #### Visual Studio 2019创建平台通用的DLL库项目
 
 使用下图模板创建项目：
