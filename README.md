@@ -135,8 +135,8 @@ Windows应用开发相关
 代码如下所示：
 
 ```c
-#include <Windows.h>
 #include <stdio.h>
+#include <Windows.h>
 
 int main(void)
 {
@@ -157,8 +157,9 @@ int main(void)
     {
         DWORD nCores = sysInfo.dwNumberOfProcessors;
         // 当前x86架构的处理器中，一个核心最多只有两个逻辑核
-        if (logicalInfos[0].Processor.Flags == LTP_PC_SMT)
+        if (logicalInfos[0].Processor.Flags == LTP_PC_SMT) {
             nCores /= 2;
+        }
 
         printf("Number of Cores: %u\n", nCores);
     }
