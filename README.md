@@ -172,6 +172,9 @@ int main(void)
 ## Win32 API 获取当前机器的IPv4地址
 
 ```c
+#include <stdio.h>
+#include <stdbool.h>
+
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 #include <WinSock2.h>
 #include <WS2tcpip.h>
@@ -180,9 +183,11 @@ int main(void)
 // link with Ws2_32.lib
 #pragma comment (lib, "Ws2_32.lib")
 
-static auto FetchCurrentIPv4Address() -> bool
+static char s_currIPAddress[16];
+
+static bool FetchCurrentIPv4Address(void)
 {
-    char hostName[256]{};
+    char hostName[256] = { 0 };
     int result = gethostname(hostName, sizeof(hostName));
     if (result != 0)
     {
@@ -191,20 +196,20 @@ static auto FetchCurrentIPv4Address() -> bool
     }
 
     PHOSTENT hostent = gethostbyname(hostName);
-    if (hostent == nullptr)
+    if (hostent == NULL)
     {
         fprintf(stderr, "gethostbyname failed with error: %d\n", WSAGetLastError());
         return false;
     }
 
-    const char* ipAddr = nullptr;
-    while (*hostent->h_addr_list != nullptr)
+    const char* ipAddr = NULL;
+    while (*hostent->h_addr_list != NULL)
     {
         ipAddr = inet_ntoa(*(struct in_addr*)*hostent->h_addr_list);
         printf("Current IPv4 address: %s\n", ipAddr);
         ++hostent->h_addr_list;
     }
-    if (ipAddr == nullptr)
+    if (ipAddr == NULL)
     {
         fprintf(stderr, "No IPv4 address found!\n");
         return false;
