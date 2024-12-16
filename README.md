@@ -71,6 +71,8 @@ Windows应用开发相关
 - [Overlapped I/O and Event Objects](https://learn.microsoft.com/en-us/windows/win32/winsock/overlapped-i-o-and-event-objects-2)
 - [Windows Sockets 2](https://learn.microsoft.com/en-us/windows/win32/api/_winsock/)
 - [socket function (winsock2.h)](https://learn.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-socket)
+- [windows 获取本机(全部)IPv4、IPv6、MAC地址方法 (C/C++)](https://www.cnblogs.com/lzpong/p/6137652.html)
+- [GetAdaptersAddresses function (iphlpapi.h)](https://learn.microsoft.com/en-us/windows/win32/api/iphlpapi/nf-iphlpapi-getadaptersaddresses)
 - [Visual Studio 2019中，用于调试的即时窗口](https://docs.microsoft.com/zh-cn/visualstudio/ide/reference/immediate-window?view=vs-2019)
 - [/Zc:__cplusplus \(Enable updated __cplusplus macro\)](https://learn.microsoft.com/en-us/cpp/build/reference/zc-cplusplus)
 - [VC编译出现ITERATOR_DEBUG_LEVEL值不匹配异常](https://blog.csdn.net/crystalshaw/article/details/79961140)
