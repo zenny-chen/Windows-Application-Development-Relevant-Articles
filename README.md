@@ -225,6 +225,20 @@ static bool FetchCurrentIPv4Address(void)
 
 <br />
 
+## Windows 设置防火墙使得指定应用能作为服务器被其他平台程序远程连接
+
+控制面板->Windows Defender防火墙->高级设置->入站规则
+
+![win_def_1](images/win_def_1.jpg)
+
+![win_def_2](images/win_def_2.jpg)
+
+![win_def_3](images/win_def_3.jpg)
+
+![win_def_4](images/win_def_4.jpg)
+
+<br />
+
 ## Windows 10的日常使用
 
 - [win10开启内置Ubuntu](https://www.jianshu.com/p/6d6e629df051)
