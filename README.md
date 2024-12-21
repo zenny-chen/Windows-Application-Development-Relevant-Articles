@@ -113,6 +113,7 @@ Windows应用开发相关
 - 通过 MSYS2 安装 **automake**：**`pacman -S automake`**
 - 通过 MSYS2 安装 **M4**：**`pacman -S m4`**
 - 通过 MSYS2 安装 **libtool**：**`pacman -S libtool`**
+- 通过 MSYS2 安装 **make**：**`pacman -S make`**
 
 <br />
 
