@@ -107,6 +107,12 @@ Windows应用开发相关
 - Visual Studio中比较舒服的字体：**`Consolas`**。菜单栏 -> 工具 -> 选项 -> 环境 -> 字体和颜色：直接在“字体（粗体表示等宽字体）”一栏中选择即可。
 - Visual Studio 2022使用文件比较工具：在Windows系统的“开始菜单”中找到“Visual Studio 2022”文件夹，点击“x64 Native Tools Command Prompt for VS 2022”，进入后可直接输入：**`devenv /diff source.c target.c`**。如果是用Visual Studio Code，可在命令行用：**`code.exe --diff source.c target.c`**。
 - Visual Studio安装完Node.js插件之后，**node.exe** 所在路径：`C:\Program Files\Microsoft Visual Studio\2022\Community\Msbuild\Microsoft\VisualStudio\NodeJs\win-x64\node.exe`。
+- Windows 系统使用 Unix-like 编译环境：安装 [**MSYS2**](https://www.msys2.org/)
+- 通过 MSYS2 更新内部安装的工具：**`pacman -Syu`**
+- 通过 MSYS2 安装 **autoconf**：**`pacman -S autoconf`**
+- 通过 MSYS2 安装 **automake**：**`pacman -S automake`**
+- 通过 MSYS2 安装 **M4**：**`pacman -S m4`**
+- 通过 MSYS2 安装 **libtool**：**`pacman -S libtool`**
 
 <br />
 
