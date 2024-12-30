@@ -191,11 +191,10 @@ int main(void)
 // link with Ws2_32.lib
 #pragma comment (lib, "Ws2_32.lib")
 
-static char s_currIPAddress[16];
-
-static bool FetchCurrentIPv4Address(void)
+static bool FetchCurrentIPv4Address(char dstIPAddr[16])
 {
-    char hostName[256] = { 0 };
+    char ipAddrList[16][16] = { 0 };
+    char hostName[256]{};
     int result = gethostname(hostName, sizeof(hostName));
     if (result != 0)
     {
@@ -210,24 +209,73 @@ static bool FetchCurrentIPv4Address(void)
         return false;
     }
 
-    const char* ipAddr = NULL;
+    int ipAddrCount = 0;
     while (*hostent->h_addr_list != NULL)
     {
-        ipAddr = inet_ntoa(*(struct in_addr*)*hostent->h_addr_list);
-        printf("Current IPv4 address: %s\n", ipAddr);
+        strcpy_s(ipAddrList[ipAddrCount++], 16U, inet_ntoa(*(struct in_addr*)*hostent->h_addr_list));
         ++hostent->h_addr_list;
+
+        if(ipAddrCount == 16) break;
     }
-    if (ipAddr == NULL)
+    if (ipAddrCount == 0)
     {
         fprintf(stderr, "No IPv4 address found!\n");
         return false;
     }
 
-    strcpy_s(s_currIPAddress, ipAddr);
+    strcpy_s(dstIPAddr, 16U, ipAddrList[0]);
 
     return true;
 }
+```
 
+<br />
+
+## Win32 API 获取当前机器的 Multicast IPv4地址
+
+```c
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+
+#define _WINSOCK_DEPRECATED_NO_WARNINGS
+#include <WinSock2.h>
+#include <WS2tcpip.h>
+#include <netioapi.h>
+#include <Windows.h>
+
+// link with Ws2_32.lib
+#pragma comment (lib, "Ws2_32.lib")
+
+// link with Iphlpapi.lib
+#pragma comment (lib, "Iphlpapi.lib")
+
+static bool FetchMultiCastIPv4Address(char dstIPAddr[16])
+{
+    char ipAddrList[16][16] = { 0 };
+    MIB_MULTICASTIPADDRESS_TABLE table = { 0 };
+    PMIB_MULTICASTIPADDRESS_TABLE pTable = &table;
+    NTSTATUS dwRetVal = GetMulticastIpAddressTable(AF_INET, &pTable);
+    if (dwRetVal != NO_ERROR)
+    {
+        fprintf(stderr, "GetMulticastIpAddressTable failed with error: %ld\n", dwRetVal);
+        return false;
+    }
+
+    const unsigned nEntries = min(unsigned(pTable->NumEntries), 16U);
+    
+    for (unsigned i = 0; i < nEntries; i++)
+    {
+        MIB_MULTICASTIPADDRESS_ROW* pRow = &pTable->Table[i];
+        strcpy_s(ipAddrList[i], 16U, inet_ntoa(*(struct in_addr*)&pRow->Address.Ipv4));
+    }
+
+    FreeMibTable(pTable);
+
+    strcpy_s(dstIPAddr, 16U, ipAddrList[0]);
+
+    return true;
+}
 ```
 
 <br />
