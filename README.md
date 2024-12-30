@@ -179,7 +179,7 @@ int main(void)
 
 ## Win32 API 获取当前机器的IPv4地址
 
-```c
+```cpp
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -233,7 +233,7 @@ static bool FetchCurrentIPv4Address(char dstIPAddr[16])
 
 ## Win32 API 获取当前机器的 Multicast IPv4地址
 
-```c
+```cpp
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
