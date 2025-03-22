@@ -114,6 +114,7 @@ Windows应用开发相关
 - 通过 MSYS2 安装 **M4**：**`pacman -S m4`**
 - 通过 MSYS2 安装 **libtool**：**`pacman -S libtool`**
 - 通过 MSYS2 安装 **make**：**`pacman -S make`**
+- Windows 系统下，Anaconda 的应用可执行文件都被安装在 **`%USERPROFILE%//anaconda3/Library/bin`** 目录下。安装GCC：**`conda install -c conda-forge gcc`**，默认的汇编器执行文件名为：**`x86_64-w64-mingw32-as.exe`**，Anaconda 环境中可使用 CUDA 的 NVCC 编译器。
 
 <br />
 
