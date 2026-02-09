@@ -96,6 +96,34 @@ Windows应用开发相关
 - MSVC禁用指定warning参考：**[/wd](https://learn.microsoft.com/en-us/cpp/build/reference/compiler-option-warning-level)**。比如：**`/wd"4819"`** 用于禁用4819编号的警告（这里的双引号可省）。
 - [/utf-8 (Set source and execution character sets to UTF-8)](https://learn.microsoft.com/en-us/cpp/build/reference/utf-8-set-source-and-executable-character-sets-to-utf-8)
 - [How to write as UTF-8 to console?](https://github.com/microsoft/terminal/issues/396)（这里的关键就是调用 **`SetConsoleOutputCP(CP_UTF8);`**）
+- Windows 系统下通过 Win32 API 将本地系统编码的字符串转为 UTF-8 编码的字符串：
+
+```c
+#include <windows.h>
+#include <stdio.h>
+
+int main() {
+    const char* nativeStr = "Hello 世界"; // encoded in current ACP
+    UINT cp = GetACP();
+
+    // Step 1: Convert ACP → UTF-16
+    int wlen = MultiByteToWideChar(cp, 0, nativeStr, -1, NULL, 0);
+    wchar_t* wstr = (wchar_t*)malloc(wlen * sizeof(wchar_t));
+    MultiByteToWideChar(cp, 0, nativeStr, -1, wstr, wlen);
+
+    // Step 2: Convert UTF-16 → UTF-8
+    int u8len = WideCharToMultiByte(CP_UTF8, 0, wstr, -1, NULL, 0, NULL, NULL);
+    char* u8str = (char*)malloc(u8len);
+    WideCharToMultiByte(CP_UTF8, 0, wstr, -1, u8str, u8len, NULL, NULL);
+
+    printf("UTF-8 string: %s\n", u8str);
+
+    free(wstr);
+    free(u8str);
+    return 0;
+}
+```
+
 - [BAT批处理文件 set命令详解](https://blog.csdn.net/csqxy547/article/details/89403598)
 - [Parallel Patterns Library (PPL)](https://docs.microsoft.com/en-us/cpp/parallel/concrt/parallel-patterns-library-ppl)
 - [About Synchronization](https://docs.microsoft.com/zh-cn/windows/win32/sync/about-synchronization)
