@@ -334,4 +334,5 @@ static bool FetchMultiCastIPv4Address(char dstIPAddr[16])
 - 解决Windows 11中微软拼音候选词窗口消失问题：右键底部拼音的“中”或“英”，然后选择“设置”，再选择“常规”，拉到最底下，打开“兼容性”开关即可工作。此外，微软日语输入法也同样设置即可。
 - [Win11 Windows附件在哪里查看 Win11中Windows附件查看方法](https://www.pconline.com.cn/win11/1476/14764009.html)
 - [如何在excel表格中只复制单元格中的数值](https://jingyan.baidu.com/article/414eccf6a751966b431f0a27.html)
+- Windows C盘空间不足，可以尝试删除 **`C:\Users\<user_name>\AppData\Local\Temp`** 中的临时文件。长时间不清理可能会积累得很多、很大。
 
