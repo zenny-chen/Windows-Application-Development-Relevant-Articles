@@ -136,6 +136,14 @@ int main() {
 - Visual Studio中比较舒服的字体：**`Consolas`**。菜单栏 -> 工具 -> 选项 -> 环境 -> 字体和颜色：直接在“字体（粗体表示等宽字体）”一栏中选择即可。
 - Visual Studio 2022使用文件比较工具：在Windows系统的“开始菜单”中找到“Visual Studio 2022”文件夹，点击“x64 Native Tools Command Prompt for VS 2022”，进入后可直接输入：**`devenv /diff source.c target.c`**。如果是用Visual Studio Code，可在命令行用：**`code.exe --diff source.c target.c`**。
 - Visual Studio安装完Node.js插件之后，**node.exe** 所在路径：`C:\Program Files\Microsoft Visual Studio\2022\Community\Msbuild\Microsoft\VisualStudio\NodeJs\win-x64\node.exe`。
+- Visual Studio 中使用 Markdown Editor (64-bit) 插件时，倘若想导出 HTML 文件，则需要先把此插件的一些 HTML 样式相关的文件拷贝出来，放在自己指定的独立目录，这样就能在其他机器上正常浏览了。比如，如果鼠标点击点击右侧浏览框，然后再选择“查看源”，看到以下 HTML：
+
+```html
+<link rel="stylesheet" href="c:\users\administrator\appdata\local\microsoft\visualstudio\17.0_c8006e10\extensions\ulyn5hpi.k4e\margin\highlight.css" />
+```
+
+那么就需要就需要把整个 `c:\users\administrator\appdata\local\microsoft\visualstudio\17.0_c8006e10\extensions\ulyn5hpi.k4e` 目录拷贝出来，然后可以重命名为“style”等简洁明了的名字。然后在 HTML 中可使用相对路径来引用即可。
+  
 - Windows 系统使用 Unix-like 编译环境：安装 [**MSYS2**](https://www.msys2.org/)
 - 通过 MSYS2 更新内部安装的工具：**`pacman -Syu`**
 - 通过 MSYS2 安装 **autoconf**：**`pacman -S autoconf`**
