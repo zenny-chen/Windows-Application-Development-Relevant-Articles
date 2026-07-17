@@ -151,7 +151,8 @@ int main() {
 - 通过 MSYS2 安装 **M4**：**`pacman -S m4`**
 - 通过 MSYS2 安装 **libtool**：**`pacman -S libtool`**
 - 通过 MSYS2 安装 **make**：**`pacman -S make`**
-- Windows 系统下，Anaconda 的应用可执行文件都被安装在 **`%USERPROFILE%//anaconda3/Library/bin`** 目录下。安装GCC：**`conda install -c conda-forge gcc`**，默认的汇编器执行文件名为：**`x86_64-w64-mingw32-as.exe`**，Anaconda 环境中可使用 CUDA 的 NVCC 编译器。
+- Windows 系统下，Anaconda 的应用可执行文件都被安装在 **`%USERPROFILE%/anaconda3/Library/bin`** 目录下。安装GCC：**`conda install -c conda-forge gcc`**，默认的汇编器执行文件名为：**`x86_64-w64-mingw32-as.exe`**，Anaconda 环境中可使用 CUDA 的 NVCC 编译器。
+- Windows 系统下更新 SourceTree 的远程用户密码：先删除 **`%USERPROFILE%/AppData/Local/Atlassian/SourceTree/passwd`** 这一文件。然后进入 SourceTree 尝试更新提交一个仓库，它会弹出无法自动提交需要手工提交的错误，此时手动点击“提交”按钮之后会弹出输入用户名和密码的对话框，此时输入密码即可更新仓库密码。
 
 <br />
 
